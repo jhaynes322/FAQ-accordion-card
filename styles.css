@@ -28,3 +28,10 @@ body {
     width: 375px;
     background-image: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
 }
+
+.attribution {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
