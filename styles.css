@@ -20,12 +20,11 @@ html {
 }
 
 body {
-    height: 100%;
-    margin: 0;
+    width: 375px;
+    height: 765px;
     background-repeat: no-repeat;
     background-attachment: fixed;
     font-family: 'Kumbh Sans', sans-serif;
-    width: 375px;
     background-image: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
 }
 
@@ -68,11 +67,26 @@ h1 {
     font-size: 2.5em;
 }
 
+.details-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid var(--gray-blue-div);
+}
+
+#arrow {
+    width: 30px;
+    height: 30px;
+    padding-left: 8px;
+    padding-top: 12px;
+}
+
 details {
-    font-size: 14px;
+    font-size: 12px;
     padding-top: 20px;
     padding-bottom: 20px;
-    border-bottom: 1px solid var(--gray-blue-div);
+
     color: var(--gray-blue-text);
 }
 
