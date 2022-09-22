@@ -75,21 +75,35 @@ h1 {
     border-bottom: 1px solid var(--gray-blue-div);
 }
 
-#arrow {
+.arrow {
     width: 30px;
     height: 30px;
     padding-left: 8px;
-    padding-top: 12px;
+    padding-top: 23px;
+    margin-left: 30px;
+}
+
+.position3 {
+    margin-left: 80px;
+}
+
+.position4 {
+    margin-left: 78px;
+}
+
+.position5 {
+    margin-left: 45px;
 }
 
 details {
     font-size: 12px;
-    padding-top: 20px;
+    /*padding-top: 20px;*/
     padding-bottom: 20px;
     color: var(--gray-blue-text);
 }
 
 details>summary {
+    width: 100%;
     list-style: none;
     cursor: pointer;
 }
