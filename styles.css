@@ -86,13 +86,18 @@ details {
     font-size: 12px;
     padding-top: 20px;
     padding-bottom: 20px;
-
     color: var(--gray-blue-text);
 }
 
 details>summary {
     list-style: none;
+    cursor: pointer;
 }
+
+details>p {
+    margin-top: 10px;
+}
+
 
 .attribution {
     width: 100vw;
