@@ -67,7 +67,8 @@ h1 {
     font-size: 2.5em;
 }
 
-.details-container {
+details {
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -77,9 +78,10 @@ h1 {
 .arrow {
     width: 30px;
     height: 30px;
-    padding-top: 22px;
+    /*padding-top: 22px;*/
+    padding-bottom: 16px;
     transform: rotateY(180deg);
-    align-self: flex-end;
+    float: right;
 }
 
 details {
@@ -89,6 +91,7 @@ details {
 
 details>summary {
     width: 100%;
+    padding-top: 20px;
     padding-bottom: 20px;
     list-style: none;
     cursor: pointer;
